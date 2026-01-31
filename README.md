@@ -38,7 +38,7 @@ As per the project requirements, 10 exported configuration files (one for each l
   
   https://www.youtube.com/watch?v=bj-Yfakjllc&list=PLIFyRwBY_4bRLmKfP1KnZA6rZbRHtxmXi
 
-I learned networking fundamentals in this playlist such as. TCP/IP addressing, default gateways, network devices such as repeater, hub, bridge, switch, router. Also ı learned OSI layers in this playlist. How a host communicate within same network and outside of his network.
+I learned networking fundamentals in this playlist such as. TCP/IP addressing, default gateways, network devices such as repeater, hub, bridge, switch, router. Also i learned OSI layers in this playlist. How a host communicate within same network and outside of his network.
 
 - IP (Internet Protocol) =  It is a set of rules that determines how data is exchanged over the internet.”
 
@@ -89,7 +89,7 @@ I learned networking fundamentals in this playlist such as. TCP/IP addressing, d
 ### Subnetting (Playlist)  
   https://www.youtube.com/watch?v=BWZ-MHIhqjM&list=PLIFyRwBY_4bQUE4IB5c4VPRyDoLgOdExE
   
-I learned subnetting math in this playlist. How ı can part a network to sub networks. Whats CIDR, Network ID, Broadcast IP ...
+I learned subnetting math in this playlist. How i can part a network to sub networks. Whats CIDR, Network ID, Broadcast IP ...
 
 - Network ID = The network address of the subnet. It represents the subnet itself (not for devices).
 - Broadcast IP: The address used to send data to all devices in the subnet (not for devices). For example DHCP process.
@@ -104,10 +104,10 @@ I learned internet history in this video.how early networks worked, and how it g
 
 https://link.excalidraw.com/readonly/W3v39dKaJFCpCF2shnkR
 
-Here is my excalidraw link. When i learned these topics ı noted all my work here so if anybody want to know and need notes he/she can look at it.
+Here is my excalidraw link. When i learned these topics i noted all my work here so if anybody want to know and need notes he/she can look at it.
 
 
-## AI Usage 
+### AI Usage 
 - I did not use AI while solving the levels. I made the IP/mask/gateway decisions myself and verified them using Check again and the Logs inside the project.
 - After finishing the levels, I used AI to **learn more deeply**: exploring **alternative valid configurations**, understanding *why* certain solutions work, and reinforcing subnetting/gateway concepts.
 - AI output was used as a learning aid and always checked against networking rules and the simulator behavior.
