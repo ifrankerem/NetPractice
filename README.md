@@ -38,9 +38,9 @@ As per the project requirements, 10 exported configuration files (one for each l
   
   https://www.youtube.com/watch?v=bj-Yfakjllc&list=PLIFyRwBY_4bRLmKfP1KnZA6rZbRHtxmXi
 
-I learned networking fundamentals in this playlist such as. TCP/IP addressing, default gateways, network devices such as repeater, hub, bridge, switch, router. Also i learned OSI layers in this playlist. How a host communicate within same network and outside of his network.
+I learned networking fundamentals in this playlist such as. TCP/IP addressing, default gateways, network devices such as repeater, hub, bridge, switch, router. Also I learned OSI layers in this playlist. How a host communicate within same network and outside of his network.
 
-- IP (Internet Protocol) =  It is a set of rules that determines how data is exchanged over the internet.”
+- IP (Internet Protocol) =  It is a set of rules that determines how data is exchanged over the internet.
 
 - IP Address = An IP address is a number that identifies a device on a network. These addresses are just 32 bit numbers.
 
@@ -56,7 +56,7 @@ I learned networking fundamentals in this playlist such as. TCP/IP addressing, d
 
 - MAC Address = A MAC address is a unique hardware address of a network device (or network card). It is used to identify devices inside a local network (LAN).
 
-- Switches = A switch connects devices in the **same** local network and forwards data to the correct device using MAC addresses.”
+- Switches = A switch connects devices in the **same** local network and forwards data to the correct device using MAC addresses.
 
 - Router = A router connects different networks and sends packets **between** them.
 
@@ -69,7 +69,8 @@ I learned networking fundamentals in this playlist such as. TCP/IP addressing, d
 - Bridge = A bridge connects two parts of a local network and forwards data between them. For example between two hubs.
 
 - OSI Layers = The OSI model is a 7-layer system that explains how data moves from one device to another in a network.
-	#### Layers
+
+#### Layers
 	1. Physical  
 	2. Data Link  
 	3. Network  
@@ -89,7 +90,7 @@ I learned networking fundamentals in this playlist such as. TCP/IP addressing, d
 ### Subnetting (Playlist)  
   https://www.youtube.com/watch?v=BWZ-MHIhqjM&list=PLIFyRwBY_4bQUE4IB5c4VPRyDoLgOdExE
   
-I learned subnetting math in this playlist. How i can part a network to sub networks. Whats CIDR, Network ID, Broadcast IP ...
+I learned subnetting math in this playlist. How I can part a network to sub networks. Whats CIDR, Network ID, Broadcast IP ...
 
 - Network ID = The network address of the subnet. It represents the subnet itself (not for devices).
 - Broadcast IP: The address used to send data to all devices in the subnet (not for devices). For example DHCP process.
@@ -97,14 +98,14 @@ I learned subnetting math in this playlist. How i can part a network to sub netw
 ### How the Internet Was Created 
   https://www.youtube.com/watch?v=VPToE8vwKew
 
-I learned internet history in this video.how early networks worked, and how it grew into a global system. It explains ideas likes **Packet Switching**, **ARPANET**, **DNS** , **WORLD WIDE WEB**, **INTERNET SERVICE PROVIDERS**, **First Web Site: https://info.cern.ch/** how different networks became connected to form today’s Internet.
+I learned internet history in this video. How early networks worked, and how it grew into a global system. It explains ideas likes **Packet Switching**, **ARPANET**, **DNS** , **WORLD WIDE WEB**, **INTERNET SERVICE PROVIDERS**, **First Web Site: https://info.cern.ch/** how different networks became connected to form today’s Internet.
 
 
 ### My Excalidraw
 
 https://link.excalidraw.com/readonly/W3v39dKaJFCpCF2shnkR
 
-Here is my excalidraw link. When i learned these topics i noted all my work here so if anybody want to know and need notes he/she can look at it.
+Here is my excalidraw link. When I learned these topics I noted all my work here so if anybody want to know and need notes he/she can look at it.
 
 
 ### AI Usage 
