@@ -1,114 +1,111 @@
+<div align="center">
+
+# 🌐 NetPractice
+
+**Ten small broken networks. Fix them with IP addressing, masks and gateways.**
+
+![42](https://img.shields.io/badge/42-Common%20Core-000000?style=flat-square)
+![Networking](https://img.shields.io/badge/TCP%2FIP-subnetting-0078D7?style=flat-square)
+![Levels](https://img.shields.io/badge/levels-10-2b9348?style=flat-square)
+![Stars](https://img.shields.io/github/stars/ifrankerem/NetPractice?style=flat-square)
+
+</div>
+
+---
+
+## 📋 Table of Contents
+
+- [About](#about)
+- [Concepts You Need](#concepts-you-need)
+- [Workflow](#workflow)
+- [Submission](#submission)
+- [Reference Material](#reference-material)
+- [Author](#author)
+
+---
+
+## 📖 About
+
+**NetPractice** is the 42 networking exercise: you get a simulated network
+diagram that doesn't work, and you have to make it work by configuring IP
+addresses, subnet masks and default gateways. Ten levels, each one a little
+bigger than the last.
+
+The networks are simulated — you solve them in a local browser training
+interface, and the whole thing is about building instinct for addressing rather
+than clicking through a GUI.
+
+---
+
+## 🧩 Concepts You Need
+
+- **IP address** — a 32-bit number identifying a device on a network.
+- **Subnet mask** — splits the address into network part and host part.
+- **Subnet** — a network nested inside another network.
+- **Default gateway** — where a host sends traffic destined outside its own network.
+- **Switch** — forwards frames inside one local network, using MAC addresses.
+- **Router** — connects different networks and routes packets between them.
+- **MAC address** — hardware address identifying a NIC inside a LAN.
+- **Modem** — converts digital data into signals and back.
+- **Repeater / hub / bridge** — signal extension and network segmentation.
+
+---
+
+## 🔄 Workflow
+
+1. Open the training interface (`index.html`, Chrome/Chromium recommended) and
+   pick **Training** using your intranet login.
+2. Read the goal at the top of the page.
+3. Edit only the **unshaded** fields — IPs, masks, gateways.
+4. Hit **Check again** to validate, and read the **Logs** to see what broke
+   (invalid IP, wrong mask, missing gateway).
+5. When the level is green, click **Get my config** and export it.
+6. Repeat for all ten levels.
+
+**Evaluation mode** generates random levels for the defense — the same skill,
+random input.
+
+---
+
+## 📦 Submission
+
+The ten exported configuration files, one per level, sit at the root of this
+repository:
+
+```
+level1.json … level10.json
+```
+
+---
+
+## 📚 Reference Material
+
+Networking fundamentals playlist used while learning the basics:
+
+- TCP/IP addressing
+- default gateways
+- repeaters, hubs, bridges, switches, routers
+- OSI layers
+- how a host communicates inside and outside its own network
+
+[Playlist](https://www.youtube.com/watch?v=bj-Yfakjllc&list=PLIFyRwBY_4bRLmKfP1KnZA6rZbRHtxmXi)
+
+---
+
+## 👤 Author
+
+**İrfan Kerem Arslan** — [@ifrankerem](https://github.com/ifrankerem)
+
 *This project has been created as part of the 42 curriculum by iarslan.*
 
-# NetPractice
+---
 
-## Description
-NetPractice is a practical networking exercise where you learn the fundamentals of TCP/IP addressing by fixing small network diagrams (10 levels).
-Your goal in each level is to make the simulated network work by configuring IP addresses, subnet masks, and default gateways, while understanding the roles of routers and switches.
+## 📄 License
 
-The networks are simulated. You solve each level using a local training interface opened in a web browser.
+Built for the **42 Common Core** curriculum. Shared for learning and portfolio purposes.
 
-## Instructions
+---
 
-### 1) Open the interface
-- Open `index.html` in your browser (Chrome/Chromium recommended).
-- Choose:
-  - **Training**: uses your intranet login
-  - **Evaluation**: generates random levels (used in defenses)
+## 🙏 Acknowledgements
 
-### 2) Solve levels
-- Read the goal at the top of the page.
-- Edit only the **unshaded** fields.
-- Use:
-  - **Check again** to validate
-  - **Logs** to understand mistakes (invalid IP, wrong mask, missing gateway, etc.)
-
-### 3) Export configs (required)
-After finishing **each** level:
-1. Click **Get my config**
-2. Save the exported config file
-3. Repeat for all **10 levels**
-
-## Submission Details
-As per the project requirements, 10 exported configuration files (one for each level) are placed at the root of this repository.
-
-## Resources
-
-### Networking Fundamentals (Playlist)
-  
-  https://www.youtube.com/watch?v=bj-Yfakjllc&list=PLIFyRwBY_4bRLmKfP1KnZA6rZbRHtxmXi
-
-I learned networking fundamentals in this playlist such as. TCP/IP addressing, default gateways, network devices such as repeater, hub, bridge, switch, router. Also I learned OSI layers in this playlist. How a host communicate within same network and outside of his network.
-
-- IP (Internet Protocol) =  It is a set of rules that determines how data is exchanged over the internet.
-
-- IP Address = An IP address is a number that identifies a device on a network. These addresses are just 32 bit numbers.
-
-- Host = These are any device which sends or receive packets or data.
-
-- Network = A network carries packets between hosts.
-
-- Subnet = Networks can contain other networks.
-
-- Subnet Mask = A subnet mask divides an IP address into parts.
-
-- Default Gateway = A device sends data to the default gateway when the destination is not in the same network.
-
-- MAC Address = A MAC address is a unique hardware address of a network device (or network card). It is used to identify devices inside a local network (LAN).
-
-- Switches = A switch connects devices in the **same** local network and forwards data to the correct device using MAC addresses.
-
-- Router = A router connects different networks and sends packets **between** them.
-
-- Modem = A modem is a device that converts digital data (0s and 1s) into signals that can travel through the internet line, and converts those signals back into digital data.
-
-- Repeater = A repeater is a device that repeats and boosts a signal to extend the network range.
-
-- Hub = Simply multi-port repeaters.
-
-- Bridge = A bridge connects two parts of a local network and forwards data between them. For example between two hubs.
-
-- OSI Layers = The OSI model is a 7-layer system that explains how data moves from one device to another in a network.
-
-#### Layers
-	1. Physical  
-	2. Data Link  
-	3. Network  
-	4. Transport  
-	5. Session  
-	6. Presentation  
-	7. Application  
-
-- TCP = TCP is a transport protocol that sends data reliably. It makes sure the data arrives in order and retransmits lost data.
-
-- UDP = UDP is a transport protocol that sends data faster and simpler, but it does not guarantee delivery or order.
-
-- ARP Protocol = ARP is a protocol that finds the MAC address of a device using its IP address on a local network.
-
-- DNS = DNS translates website names (domain names) into IP addresses.
-
-### Subnetting (Playlist)  
-  https://www.youtube.com/watch?v=BWZ-MHIhqjM&list=PLIFyRwBY_4bQUE4IB5c4VPRyDoLgOdExE
-  
-I learned subnetting math in this playlist. How I can part a network to sub networks. Whats CIDR, Network ID, Broadcast IP ...
-
-- Network ID = The network address of the subnet. It represents the subnet itself (not for devices).
-- Broadcast IP: The address used to send data to all devices in the subnet (not for devices). For example DHCP process.
-
-### How the Internet Was Created 
-  https://www.youtube.com/watch?v=VPToE8vwKew
-
-I learned internet history in this video. How early networks worked, and how it grew into a global system. It explains ideas likes **Packet Switching**, **ARPANET**, **DNS** , **WORLD WIDE WEB**, **INTERNET SERVICE PROVIDERS**, **First Web Site: https://info.cern.ch/** how different networks became connected to form today’s Internet.
-
-
-### My Excalidraw
-
-https://link.excalidraw.com/readonly/W3v39dKaJFCpCF2shnkR
-
-Here is my excalidraw link. When I learned these topics I noted all my work here so if anybody want to know and need notes he/she can look at it.
-
-
-### AI Usage 
-- I did not use AI while solving the levels. I made the IP/mask/gateway decisions myself and verified them using Check again and the Logs inside the project.
-- After finishing the levels, I used AI to **learn more deeply**: exploring **alternative valid configurations**, understanding *why* certain solutions work, and reinforcing subnetting/gateway concepts.
-- AI output was used as a learning aid and always checked against networking rules and the simulator behavior.
+- [awesome-readme](https://github.com/matiassingers/awesome-readme) — structure inspiration for this README
